@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Sevillana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* shared styles */
+
+.btn-primary {
+    font-size: 1.25rem;
+    font-weight: 500;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background-color: #FF5959;
+}
+
+/* Banner styles */
+
+.banner {
+    text-align: center;
+    background-image: url(../images/donation13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 170px 300px;
+}
+
+.banner-title {
+    color: #FFFFFF;
+    font-size: 4.06rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 65px;
+}
+
+.banner-desco {
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px;
+}
+
+/* Donate today styles */
+
+.content-1 {
+    text-align: center;
+}
+
+.content-1-title {
+    font-size: 2.81rem;
+    font-weight: bold;
+    color: #121212;
+    margin: 100px 0 20px;
+}
+
+.content-1-desco {
+    color: #707070;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.card {
+    background-color: #FAFAFA;
+}
+
+.card-title {
+    color: #707070;
+    font-size: 1.87rem;
+    font-weight: bold;
+    padding: 40px 22px;
+}
+
+.card-1 {
+    background-color: #FAFAFA;
+    border: 1px solid #FF5959;
+}
+
+.card-title-1 {
+    color: #FF5959;
+    font-size: 1.87rem;
+    font-weight: bold;
+    padding: 40px 22px;
+}
+
+.tk {
+    color: #B3B3B3;
+    margin: 60px 0 9.5px;
+}
+
+.hr {
+    color: #DADADA;
+    width: 700px;
+    margin: 0 auto 30px;
+}
+
+/* Our Donate Plan */
+
+.content-2-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.content-2-text-title {
+    color: #121212;
+    font-size: 2.81rem;
+    font-weight: bold;
+}
+
+.content-2-text-desco {
+    color: #707070;
+    font-family: "Poppins", sans-serif;
+}
+
+.box {
+    display: flex;
+    gap: 24px;
+    margin: 50px 150px 0;
+}
+
+.box-1 {
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 60px 20px 50px;
+}
+
+.box-2 {
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 60px 20px 50px;
+}
+
+.box-3 {
+    background-color: #FFF4D6;
+    border-radius: 5px;
+    padding: 60px 20px 50px;
+}
+
+/* Their lives depend on your donation */
+
+.donation {
+    display: flex;
+    gap: 80px;
+    margin-left: 150px;
+    margin-right: 250px;
+}
+
+.donation-text-title {
+    margin-top: 180px;
+    font-size: 2.81rem;
+    color: #121212;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.donation-text-desco {
+    color: #707070;
+    font-family: "Poppins", sans-serif;
+    margin: 20px 0;
+}
+
+.donation-img>img {
+    width: 450px;
+    height: 370px;
+    border-radius: 5px;
+    margin-top: 130px;
+}
+
+/* Get My Updates */
+
+.text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.text-title {
+    font-size: 2.81rem;
+    color: #121212;
+    font-weight: bold;
+}
+
+.text-desco {
+    color: #707070;
+    font-family: "Poppins", sans-serif;
+}
+
+.button {
+    text-align: center;
+    background-color: #FFF4D6;
+    padding: 75px 180px;
+    margin: 50px 300px;
+    border-radius: 16px;
+}
+
+.em {
+    width: 270px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background-color: #D9D9D9;
+}
+
+::placeholder {
+    color: #AA9F9F;
+    padding-left: 12px;
+}
+
+.btn {
+    margin-left: 0;
+    padding: 14px 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF5959;
+    color: #FFFFFF;
+}
+
+/* Be Humble */
+
+.bg-color {
+    background-color: #0B0D17;
+    text-align: center;
+}
+
+.bg-title {
+    color: #FF5959;
+    font-size: 2.25rem;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+.bg-desco {
+    color: #D9DBE1;
+    font-size: 0.87rem;
+    padding-bottom: 40px;
+}
